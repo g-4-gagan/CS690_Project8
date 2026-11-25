@@ -1,0 +1,6 @@
+,root cluster mean pt,end region mean pt,Spearman with reference time (curated annotation),family
+SpaceFlow,0.072,0.852,0.654,Graph neural net (DGI) + DPT
+SpaTrack,0.089,0.66,0.427,Optimal transport (expression + distance)
+StaVia,0.057,0.882,0.721,Random walks with memory + spatial smoothing
+stLearn,0.04,0.862,0.733,stSME (space + image + expression) + PSTS
+CASCAT,0.142,0.864,0.66,Causal (CMI) pruned spatial graph + tree

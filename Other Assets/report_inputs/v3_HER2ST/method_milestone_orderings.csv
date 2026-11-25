@@ -1,0 +1,6 @@
+method,milestones,root milestone,ordering (milestone[reference state])
+SpaceFlow,10,4,4[breast glands] → 5[connective tissue] → 8[-] → 0[connective tissue] → 6[invasive cancer] → 3[connective tissue] → 1[connective tissue] → 2[tumour (in situ)] → 9[tumour (in situ)] → 7[invasive cancer]
+SpaTrack,7,2,2[breast glands] → 0[connective tissue] → 4[connective tissue] → 3[tumour (in situ)] → 6[tumour (in situ)] → 1[connective tissue] → 5[invasive cancer]
+StaVia,8,5,5[breast glands] → 7[-] → 0[connective tissue] → 4[connective tissue] → 1[connective tissue] → 2[invasive cancer] → 6[immune infiltrate] → 3[tumour (in situ)]
+stLearn,4,2,2[connective tissue] → 0[connective tissue] → 3[connective tissue] → 1[tumour (in situ)]
+CASCAT,7,2,2[breast glands] → 5[breast glands] → 0[immune infiltrate] → 3[connective tissue] → 4[tumour (in situ)] → 1[invasive cancer] → 6[connective tissue]

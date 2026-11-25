@@ -1,0 +1,24 @@
+ordering,IM (↓),OT (↓),state-edge F1 (↑),state edges found,KT (↑),SR (↑),SR beyond distance (↑),ARI (↑),AMI (↑),milestones,state order KT (↑),stated order recovered
+SpaceFlow,1.2456,0.3984,1.0,DCIS/LCIS–IDC,0.2591,0.3173,0.2425,0.1759,0.3916,16.0,1.0,yes
+SpaTrack,1.2587,0.5,1.0,DCIS/LCIS–IDC,0.2337,0.2862,0.0035,0.1762,0.3564,14.0,1.0,yes
+StaVia,1.2627,0.5,1.0,DCIS/LCIS–IDC,0.2487,0.295,0.2659,0.1292,0.3128,19.0,1.0,yes
+stLearn,1.2565,0.5,1.0,DCIS/LCIS–IDC,0.3937,0.4821,0.4394,0.2117,0.385,12.0,1.0,yes
+CASCAT,1.2908,0.5,1.0,DCIS/LCIS–IDC,0.3836,0.4698,0.4057,0.1468,0.2899,11.0,1.0,yes
+SPACECONS (weighted),1.2734,0.4053,1.0,DCIS/LCIS–IDC,0.3235,0.3961,0.3268,0.1862,0.3746,13.0,1.0,yes
+Borda (uniform),,,,,0.3018,0.3696,0.2696,,,,1.0,yes
+"space only (1st PC of x, y)",,,,,0.1402,0.1716,0.1768,,,,1.0,yes
+distance from root (through tissue),,,,,0.2673,0.3273,-0.0225,,,,1.0,yes
+weighting ablation: family_threshold,,,,,0.2738,0.3353,0.2427,,,,1.0,yes
+weighting ablation: redundancy_smooth,,,,,0.2903,0.3555,0.2494,,,,1.0,yes
+TAU sensitivity: smooth tau 0.70,,,,,0.2814,0.3445,0.2218,,,,1.0,yes
+TAU sensitivity: smooth tau 0.80,,,,,0.2903,0.3555,0.2494,,,,1.0,yes
+TAU sensitivity: smooth tau 0.90,,,,,0.3018,0.3695,0.2807,,,,1.0,yes
+TAU sensitivity: family tau 0.70,,,,,0.2793,0.342,0.2129,,,,1.0,yes
+TAU sensitivity: family tau 0.80,,,,,0.2738,0.3353,0.2427,,,,1.0,yes
+TAU sensitivity: family tau 0.90,,,,,0.3147,0.3853,0.3043,,,,1.0,yes
+SPACECONS-3 (final),1.2734,0.4053,1.0,DCIS/LCIS–IDC,0.3934,0.4816,0.374,0.1862,0.3746,13.0,1.0,yes
+SPACECONS-3: vote solve only,,,,,0.3241,0.3969,0.3295,,,,1.0,yes
+SPACECONS-3: fused walker only,,,,,0.3558,0.4357,0.3138,,,,1.0,yes
+"SPACECONS-3: vote, no CASCAT cut / fused weights",,,,,0.3246,0.3975,0.3303,,,,1.0,yes
+"SPACECONS-3: vote, global trust only",,,,,0.3244,0.3972,0.3297,,,,1.0,yes
+"SPACECONS-3: vote, local trust only",,,,,0.3055,0.3741,0.2845,,,,1.0,yes

@@ -1,0 +1,24 @@
+ordering,IM (↓),OT (↓),state-edge F1 (↑),state edges found,KT (↑),SR (↑),SR beyond distance (↑),ARI (↑),AMI (↑),milestones,state order KT (↑),stated order recovered
+SpaceFlow,0.4696,0.22,0.2857,"breast glands–connective tissue, connective tissue–invasive cancer, invasive cancer–tumour (in situ)",0.0175,0.0283,-0.1351,0.2371,0.3988,10.0,0.3333,no
+SpaTrack,0.5869,0.1078,0.25,"breast glands–connective tissue, connective tissue–invasive cancer, connective tissue–tumour (in situ), invasive cancer–tumour (in situ)",0.1181,0.1433,0.0092,0.3814,0.4876,7.0,0.3333,no
+StaVia,0.5285,0.2138,0.25,"breast glands–connective tissue, connective tissue–invasive cancer, immune infiltrate–invasive cancer, invasive cancer–tumour (in situ)",-0.2049,-0.2186,-0.2758,0.3661,0.4688,8.0,0.3333,no
+stLearn,0.6731,0.165,0.0,connective tissue–tumour (in situ),-0.1529,-0.1579,-0.238,0.2816,0.3222,4.0,0.3333,no
+CASCAT,0.6274,0.1698,0.6,"breast glands–connective tissue, breast glands–immune infiltrate, connective tissue–immune infiltrate, connective tissue–tumour (in situ), immune infiltrate–invasive cancer, invasive cancer–tumour (in situ)",0.2576,0.3159,0.2977,0.2282,0.3662,7.0,1.0,yes
+SPACECONS (weighted),0.6458,0.1404,0.2857,"breast glands–connective tissue, connective tissue–invasive cancer, invasive cancer–tumour (in situ)",-0.0185,-0.0053,-0.2152,0.3543,0.4841,7.0,0.3333,no
+Borda (uniform),,,,,-0.0426,-0.0322,-0.2329,,,,0.3333,no
+"space only (1st PC of x, y)",,,,,0.0244,0.0203,-0.2208,,,,0.3333,no
+distance from root (through tissue),,,,,0.1205,0.1441,-0.0057,,,,0.3333,no
+weighting ablation: family_threshold,,,,,0.002,0.0194,-0.1653,,,,0.3333,no
+weighting ablation: redundancy_smooth,,,,,-0.0463,-0.0361,-0.2329,,,,0.3333,no
+TAU sensitivity: smooth tau 0.70,,,,,-0.0669,-0.0599,-0.255,,,,0.3333,no
+TAU sensitivity: smooth tau 0.80,,,,,-0.0463,-0.0361,-0.2329,,,,0.3333,no
+TAU sensitivity: smooth tau 0.90,,,,,-0.0457,-0.0357,-0.2359,,,,0.3333,no
+TAU sensitivity: family tau 0.70,,,,,-0.09,-0.0864,-0.2735,,,,0.3333,no
+TAU sensitivity: family tau 0.80,,,,,0.002,0.0194,-0.1653,,,,0.3333,no
+TAU sensitivity: family tau 0.90,,,,,-0.0435,-0.0334,-0.2367,,,,0.3333,no
+SPACECONS-3 (final),0.6458,0.1404,0.2857,"breast glands–connective tissue, connective tissue–invasive cancer, invasive cancer–tumour (in situ)",0.0332,0.0465,-0.2086,0.3543,0.4841,7.0,0.3333,no
+SPACECONS-3: vote solve only,,,,,-0.0341,-0.0228,-0.2278,,,,0.3333,no
+SPACECONS-3: fused walker only,,,,,0.0854,0.1007,-0.1741,,,,0.3333,no
+"SPACECONS-3: vote, no CASCAT cut / fused weights",,,,,-0.0338,-0.0225,-0.2286,,,,0.3333,no
+"SPACECONS-3: vote, global trust only",,,,,-0.0324,-0.0209,-0.2266,,,,0.3333,no
+"SPACECONS-3: vote, local trust only",,,,,-0.0582,-0.0499,-0.2443,,,,0.3333,no

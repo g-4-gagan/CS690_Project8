@@ -1,0 +1,33 @@
+{
+ "settings": {
+  "K_VOTE": 6,
+  "K_CAND": 15,
+  "K_SNF": 6,
+  "SNF_ITERS": 20,
+  "SNF_MU": 0.5,
+  "HOOD": 18,
+  "CASCAT_PERCENT": 0.07,
+  "B_BOOT": 100,
+  "PRIOR": 0.01
+ },
+ "fused_views": [
+  "expression",
+  "SpaceFlow",
+  "CASCAT",
+  "stLearn",
+  "SpaTrack"
+ ],
+ "cascat_cut_pairs": 663,
+ "voting_pairs": 7529,
+ "stavia_terminal_milestones": [
+  "C10",
+  "C11",
+  "C12",
+  "C13",
+  "C14",
+  "C15",
+  "C4",
+  "C6"
+ ],
+ "vote_vs_walker_spearman": 0.8489935655093583
+}

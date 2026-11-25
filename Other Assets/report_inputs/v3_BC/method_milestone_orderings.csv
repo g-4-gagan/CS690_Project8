@@ -1,0 +1,6 @@
+method,milestones,root milestone,ordering (milestone[reference state])
+SpaceFlow,16,6,6[DCIS/LCIS] → 8[DCIS/LCIS] → 0[IDC] → 9[IDC] → 2[-] → 13[DCIS/LCIS] → 3[IDC] → 11[IDC] → 14[IDC] → 4[IDC] → 12[DCIS/LCIS] → 15[IDC] → 5[IDC] → 7[DCIS/LCIS] → 10[IDC] → 1[IDC]
+SpaTrack,14,11,11[DCIS/LCIS] → 9[IDC] → 4[IDC] → 0[IDC] → 13[DCIS/LCIS] → 8[DCIS/LCIS] → 2[IDC] → 5[DCIS/LCIS] → 12[IDC] → 6[IDC] → 10[IDC] → 7[IDC] → 1[IDC] → 3[IDC]
+StaVia,19,14,14[DCIS/LCIS] → 5[DCIS/LCIS] → 16[IDC] → 17[DCIS/LCIS] → 8[IDC] → 1[DCIS/LCIS] → 7[IDC] → 11[IDC] → 12[IDC] → 6[IDC] → 4[IDC] → 15[IDC] → 10[IDC] → 9[IDC] → 2[IDC] → 0[DCIS/LCIS] → 18[IDC] → 3[IDC] → 13[IDC]
+stLearn,12,6,6[DCIS/LCIS] → 11[DCIS/LCIS] → 0[IDC] → 7[IDC] → 5[IDC] → 4[IDC] → 8[DCIS/LCIS] → 9[IDC] → 3[DCIS/LCIS] → 10[IDC] → 2[IDC] → 1[IDC]
+CASCAT,11,2,2[DCIS/LCIS] → 9[DCIS/LCIS] → 7[DCIS/LCIS] → 6[-] → 10[IDC] → 0[IDC] → 8[IDC] → 3[IDC] → 4[DCIS/LCIS] → 1[IDC] → 5[IDC]

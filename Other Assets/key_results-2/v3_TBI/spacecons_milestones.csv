@@ -1,0 +1,16 @@
+,spots,mean pseudotime,reference state (majority)
+C1,365,0.081,hypothalamus
+C2,143,0.165,thalamus
+C3,159,0.289,hypothalamus
+C4,201,0.309,thalamus
+C5,58,0.361,hypothalamus
+C6,98,0.396,hypothalamus
+C7,68,0.471,injury
+C8,200,0.535,injury
+C9,101,0.538,hippocampus
+C10,106,0.609,thalamus
+C11,261,0.638,hypothalamus
+C12,186,0.741,injury
+C13,184,0.836,hippocampus
+C14,164,0.895,injury
+C15,146,0.931,hippocampus

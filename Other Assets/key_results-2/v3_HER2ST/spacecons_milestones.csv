@@ -1,0 +1,8 @@
+,spots,mean pseudotime,reference state (majority)
+C1,53,0.105,breast glands
+C2,94,0.213,connective tissue
+C3,132,0.314,connective tissue
+C4,95,0.601,connective tissue
+C5,64,0.628,tumour (in situ)
+C6,25,0.637,invasive cancer
+C7,144,0.856,invasive cancer
